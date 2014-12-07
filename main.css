@@ -1,26 +1,30 @@
-/*body {
-  background-color: #FFF;
+header {
+    background-color:#00BFFF;
+    color:white;
+    text-align:center;
+    padding:5px; 
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
+nav {
+    line-height:30px;
+    background-color:white;
+    height:50px;
+    width:100%;
+    float:left;
+    padding:5px; 
     display: inline;
-    float: left;
 }
 
-a {
-    display: block;
-    width: 100px;
+footer {
+    /*position: relative;*/
+    background-color:#00BFFF;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+    top: 60px;
+
 }
-
-#content{
-
-}*/
 
 ul {
     list-style-type: none;
@@ -31,14 +35,35 @@ ul {
 
 li {
     float: left;
+    display: inline;
+}
+
+section {
+    position: relative;
+    padding-top: 50px;
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    padding:5px; 
+}
+
+.profileContainer {
+  background-color: #00BFFF;
+  top: 60px;
+
+}
+
+.hashtagContainer {
+  background-color: black;
+  top: 60px;
 }
 
 a:link, a:visited {
     display: block;
     width: 120px;
     font-weight: bold;
-    color: #FFFFFF;
-    background-color: #98bf21;
+    color: #000000;
+    /*background-color: #98bf21;*/
     text-align: center;
     padding: 4px;
     text-decoration: none;
@@ -46,5 +71,5 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: #7A991A;
+    background-color: #4169E1;
 }
