@@ -16,7 +16,7 @@ nav {
 }
 
 footer {
-    /*position: relative;*/
+    position: relative;
     background-color:#00BFFF;
     color:white;
     clear:both;
@@ -56,6 +56,12 @@ section {
 .hashtagContainer {
   background-color: black;
   top: 60px;
+}
+
+.mainFeedContainer {
+  background-color: black;
+  top: 60px;
+  float: right;
 }
 
 a:link, a:visited {
